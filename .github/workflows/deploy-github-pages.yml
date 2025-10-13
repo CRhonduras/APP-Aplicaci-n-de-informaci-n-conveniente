@@ -16,18 +16,18 @@ env:
   NG_USE_Q_AND_A_SEARCH: 'true'
   #
   # Enable Feedback-prompt on Sub-Category and Offer pages (set to 'true' / 'false')
-  NG_USE_FEEDBACK_PROMPT: 'false'
+  NG_USE_FEEDBACK_PROMPT: 'true'
   #
   # Use the language-switcher to switch between Regions (set to 'true' / 'false')
-  NG_USE_REGION_PER_LOCALE: 'false'
+  NG_USE_REGION_PER_LOCALE: 'true'
   #
   # Default language
-  NG_LOCALE_LANGUAGE: 'en'
+  NG_LOCALE_LANGUAGE: 'es'
   # Default language direction (Possible values: 'ltr' or 'rtl')
   NG_LOCALE_DIR: 'ltr'
   # Available language options (Comma-separated list like: '<language-code>:<language-name>,ar:العربية,en:English,*:Other...')
   # To disable the language-switcher on the main-page, or when using `NG_USE_REGION_PER_LOCALE=true`, set this to: ''
-  NG_LOCALE_ALTERNATIVES: 'ar:العربية, en:English, es:Español, fr:Français, *:Other...'
+  NG_LOCALE_ALTERNATIVES: 'en:English, es:Español, *:Other...'
   # An (optional) explanation below the list of available language options (i.e "* Using Google Translate")
   NG_LOCALE_ALTERNATIVES_EXPLANATION: '* Translations via Google Translate'
   #
@@ -40,11 +40,11 @@ env:
   # ###########################################################################
   #
   # A (short) name, visible in the top (navigation-)bar and in the browser's tab/window-title (and search-engine results)
-  TXT_APP_NAME: ''
+  TXT_APP_NAME: 'HIA'
   # An absolute/data-URL to an image, visible in the top (navigation-)bar
   TXT_APP_LOGO_URL: ''
   # The first heading, (only) visible on the main-page
-  TXT_MAIN_PAGE_HEADER: ''
+  TXT_MAIN_PAGE_HEADER: 'Hola'
   # The (optional) introduction text, (only) visible on the main-page.
   # Can be multiple-lines of Markdown syntax or contain some HTML. Newlines need to be specified with `\n` or `<br />`.
   TXT_MAIN_PAGE_INTRO: >-
@@ -52,7 +52,7 @@ env:
     \n
   #
   # An (optional) notice on the top of the screen, can be overwritten on sub-pages per-region by each region's sheet.
-  TXT_MAIN_PAGE_NOTICE: ''
+  TXT_MAIN_PAGE_NOTICE: 'Información'
   #
   # An (optional) "About"-page
   # Can be multiple-lines of Markdown syntax or contain some HTML. Newlines need to be specified with `\n` or `<br />`.
@@ -98,7 +98,7 @@ env:
     Information
   # The ID of the Google Sheet(s) that contains the content for the region
   REGIONS_SHEET_IDS: >-
-    xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+    1hNs41KG4BNpwcCw9OzmfORLZWCIdNTpc
 
 # #############################################################################
 #
