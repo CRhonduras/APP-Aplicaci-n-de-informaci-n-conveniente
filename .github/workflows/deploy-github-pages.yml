@@ -180,10 +180,10 @@ jobs:
       - name: Add 404.html
         run: 'cp www/index.html www/404.html'
 
-      - name: Setup GitHub Pages
-        uses: actions/configure-pages@v5
-        with:
-          enablement: true
+      # - name: Setup GitHub Pages
+      #   uses: actions/configure-pages@v5
+      #   with:
+      #     enablement: true
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
